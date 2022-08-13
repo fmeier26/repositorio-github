@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+body {
+    text-align: center;
+}
+
+
+nav li {
+    display: inline-block;
+    font-size: 1rem;
+    margin-left: 25px;
+    height: 35px;
+    text-align: center;
+    margin-top: 15px;
+    
+       
+        
+}
+
+
+.primeraSeccion {
+    text-align: start;
+    text-decoration: underline;
+    height: 50px;
+    margin-top: 10px;
+  
+
+}
+
+
+
+.parrafo {
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: black
+}
+
+.parrafo a {
+    color: blue;
+}
+
+.secondseccion {
+    text-decoration: underline;
+    text-align: start;
+    border-top: 1px solid black;
+
+}
+
+
+
+.contenedorSecundario {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+        
+
+    
+}
+
+.tortaA {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: no-repeat;
+    background-image: url(../img/skyie.jpg);
+    background-position: center;
+    background-size: contain;
+    transition: height 0.1s, width 0.8;    
+}
+
+.tortaA:hover {
+    height: 300px;
+    width: 300px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: no-repeat;
+    background-image: url(../img/estefibakery.png);
+    background-position: center;
+    background-size: contain;
+    
+
+}
+
+.tortaC {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: no-repeat;
+    background-image: url(../img/torta\ zanahoria.jpeg);
+    background-position: center;
+    background-size: contain;
+    transition: height 0.1s, width 0.8; 
+}
+
+.tortaC:hover {
+    height: 300px;
+    width: 300px;
+}
+
+.tortaB {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: no-repeat;
+    background-image: url(../img/20201225_184445.jpg);
+    background-position: center;
+    background-size: contain;
+    transition: height 0.1s, width 0.8; 
+    
+}
+
+.tortaB:hover {
+    height: 300px;
+    width: 300px;
+}
+
+.tortaD {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: no-repeat;
+    background-image: url(../img/IMG_20210415_131733_272.jpg);
+    background-position: center;
+    background-size: contain;
+    transition: height 0.1s, width 0.8; 
+    
+}
+
+.tortaD:hover {
+    height: 300px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+footer a {
+    color: blue;
+    
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.eventos {
+    margin-top: 20px;
+       
+}
+
+.cuartaSeccion p {
+    margin-top: 15px;
+}
+
+.cajaEventos {
+    display: flex;
+    height: 200px;
+    margin-top: 15px;
+    background: fixed no-repeat;
+    background-image: url(../img/eventos.png)  ;  
+    background-size: contain;
+    
+}
+
+
+.formulario {
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+
+.gridPadre {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "seccionA seccionA seccionA seccionA"
+    "seccionB seccionB seccionB seccionB"
+    "footer footer footer footer"
+    ;
+}
+
+.gridPadre2 {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "seccionC seccionC seccionC seccionC"    
+    "footer footer footer footer"
+    ;
+}
+
+.gridPadre3 {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "seccionD seccionD seccionD seccionD"    
+    "footer footer footer footer"
+    ;
+}
+
+.gridPadre4 {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "seccionF seccionF seccionG seccionG" 
+    "seccionF seccionF seccionG seccionG" 
+    "footer footer footer footer"
+    ;
+}
+
+.gridPadre5 {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "seccionH seccionH seccionH seccionH"    
+    "footer footer footer footer"
+    ;
+}
+
+header {
+    background-color: pink;
+    grid-area: header;
+    border: 1px solid black;
+}
+
+nav {
+    background-color: rgb(77, 150, 125);
+    grid-area: nav;
+}
+
+.primerSeccion {
+    background-color: blanchedalmond;
+    grid-area: seccionA;
+  
+}
+
+.segundaSeccion {
+    background-color: orange;
+    grid-area: seccionB;
+   
+}
+
+.terceraSeccion {
+    background-color: bisque;
+    grid-area: seccionC;
+    text-align: start;
+    
+}
+
+.cuartaSeccion {
+    background-color: bisque;
+    grid-area: seccionD;
+    text-align: start;
+}
+
+.quintaSeccion {
+    background-color: bisque;
+    grid-area: seccionE;
+    height: 380px;
+    text-align: start;
+}
+
+.sextaSeccion {
+    background-color: bisque;
+    grid-area: seccionF;    
+    text-align: start;
+    border: 1px solid black;
+    
+}
+
+.septimaSeccion {
+    background-color: bisque;
+    grid-area: seccionG;    
+    text-align: start;
+    border: 1px solid black;
+}
+
+.octavaSeccion {
+    background-color: bisque;
+    grid-area: seccionH;
+    height: 380px;
+    text-align: start;
+    border: 1px solid black;
+
+}
+
+footer {
+    background-color: aquamarine;
+    grid-area: footer;
+    text-align: start;
+    border-top: 3px solid black;
+    
+    
+}
+
+
+@media (max-width:450px) {
+
+    .gridpadre {
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "seccionA"
+        "seccionB"
+        "footer"
+        ;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    
+    
+   
+}
+
+@media (min-width:768px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "seccionA seccionA"
+        "seccionB seccionB"
+        "footer footer";
+        
+    }
+
+    
+}
+
+
+
+@media (min-width: 1024px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "seccionA seccionA seccionA seccionA"
+        "seccionB seccionB seccionB seccionB"
+        "footer footer footer footer"
+        ;
+    }
+
+  
+
+}
+
